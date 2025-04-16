@@ -9,6 +9,7 @@ public class CoinScript : MonoBehaviour
 
     private void Start()
     {
+        // the code is fixed here
         if(audioSource == null)
         {
             audioSource = gameObject.AddComponent<AudioSource>();
