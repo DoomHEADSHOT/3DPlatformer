@@ -10,6 +10,7 @@ public class CoinScript : MonoBehaviour
     private void Start()
     {
         // Check if the audio source exist
+        // the code is fixed here
         if(audioSource == null)
         {
             //add an audiosource 
